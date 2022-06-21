@@ -18,7 +18,7 @@ const calculate = () => {
     }
     else if (op === '/') {
         console.log(`${num1} ${op} ${num2} = ${parseFloat(num1) + parseFloat(num2)}`)
-        alert(`${num1} ${op} ${num2} = ${parseFloat(num1) + parseFloat(num2)}`)
+        alert(`${num1} ${op} ${num2} = ${parseFloat(num1) / parseFloat(num2)}`)
     }
     else{
         console.log('Invalid operation')
